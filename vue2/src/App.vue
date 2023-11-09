@@ -18,6 +18,7 @@
       </h1>
     </section>
     <Model />
+    <Todo />
   </div>
 </template>
 
@@ -26,6 +27,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import Menu from "@/components/Menu.vue";
 import Hidden from "@/components/Hidden.vue";
 import Model from "@/components/Model.vue";
+import Todo from "@/components/Todo.vue";
 
 export default {
   name: "App",
@@ -43,6 +45,7 @@ export default {
     Menu,
     Hidden,
     Model,
+    Todo,
   },
   mounted() {},
   methods: {},
